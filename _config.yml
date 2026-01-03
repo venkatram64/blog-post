@@ -222,12 +222,14 @@ plugins:
   # - jekyll-terser
   # - jekyll-twitter-plugin
   # - jemoji
+
 # Table of Contents settings (commented out as it requires jekyll-toc which is not supported)
 # toc:
 #   min_level: 1    # 1 means include h1, h2, etc.
 #   max_level: 6    # 6 means include up to h6
 #   ordered: false  # Use ordered list
 #   no_toc_section_class: no_toc  # class for elements that should be skipped
+
 # Sitemap settings
 
 # Sitemap settings
