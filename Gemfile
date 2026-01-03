@@ -5,23 +5,12 @@ gem 'github-pages', group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'jekyll-archives-v2'
-  gem 'jekyll-email-protect'
+  # Only include plugins that are whitelisted by GitHub Pages
+  # https://pages.github.com/versions/
   gem 'jekyll-feed'
-  gem 'jekyll-get-json'
-  gem 'jekyll-imagemagick'
-  gem 'jekyll-jupyter-notebook'
-  gem 'jekyll-link-attributes'
-  gem 'jekyll-minifier'
-  gem 'jekyll-paginate-v2'
-  gem 'jekyll-regex-replace'
-  gem 'jekyll-scholar'
+  gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
-  gem 'jekyll-tabs'
-  gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
-  gem 'jekyll-twitter-plugin'
   gem 'jemoji'
-  gem 'classifier-reborn'
   
   # Development gems
   gem 'wdm', '~> 0.1.0' if Gem.win_platform?
