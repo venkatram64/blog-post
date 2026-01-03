@@ -203,30 +203,32 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-archives-v2
-  - jekyll-email-protect
   - jekyll-feed
-  - jekyll-toc
-  - jekyll-get-json
-  - jekyll-imagemagick
-  - jekyll-jupyter-notebook
-  - jekyll-link-attributes
-  - jekyll-minifier
-  - jekyll-paginate-v2
-  - jekyll-regex-replace
-  - jekyll-scholar
   - jekyll-sitemap
-  - jekyll-tabs
-  - jekyll-terser
-  - jekyll-twitter-plugin
-  - jemoji
-
-# Table of Contents settings
-toc:
-  min_level: 1    # 1 means include h1, h2, etc.
-  max_level: 6    # 6 means include up to h6
-  ordered: false  # Use ordered list
-  no_toc_section_class: no_toc  # class for elements that should be skipped
+  - jekyll-seo-tag
+  # Remove unsupported plugins for GitHub Pages:
+  # - jekyll-archives-v2
+  # - jekyll-email-protect
+  # - jekyll-toc
+  # - jekyll-get-json
+  # - jekyll-imagemagick
+  # - jekyll-jupyter-notebook
+  # - jekyll-link-attributes
+  # - jekyll-minifier
+  # - jekyll-paginate-v2
+  # - jekyll-regex-replace
+  # - jekyll-scholar
+  # - jekyll-tabs
+  # - jekyll-terser
+  # - jekyll-twitter-plugin
+  # - jemoji
+# Table of Contents settings (commented out as it requires jekyll-toc which is not supported)
+# toc:
+#   min_level: 1    # 1 means include h1, h2, etc.
+#   max_level: 6    # 6 means include up to h6
+#   ordered: false  # Use ordered list
+#   no_toc_section_class: no_toc  # class for elements that should be skipped
+# Sitemap settings
 
 # Sitemap settings
 defaults:
@@ -242,9 +244,9 @@ sass:
 # Jekyll Minifier
 # -----------------------------------------------------------------------------
 
-jekyll-minifier:
-  compress_javascript: false # set to false since we are using terser as the js minifier
-  exclude: ["robots.txt", "assets/js/search/*.js"]
+# jekyll-minifier:
+#   compress_javascript: false # set to false since we are using terser as the js minifier
+#   exclude: ["robots.txt", "assets/js/search/*.js"]
 
 # -----------------------------------------------------------------------------
 # Terser
