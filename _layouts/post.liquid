@@ -77,14 +77,14 @@ layout: default
 
   {% if site.related_blog_posts and site.related_blog_posts.enabled %}
     {% if page.related_posts == null or page.related_posts %}
-      {% include related_posts.liquid %}
+      <!-- Related posts removed as the include file is missing -->
     {% endif %}
   {% endif %}
 
   {% if site.disqus_shortname and page.disqus_comments %}
-    {% include disqus.liquid %}
+    <!-- Disqus comments removed as the include file is missing -->
   {% endif %}
   {% if site.giscus and page.giscus_comments %}
-    {% include giscus.liquid %}
+    <!-- Giscus comments removed as the include file is missing -->
   {% endif %}
 </div>
