@@ -206,6 +206,7 @@ plugins:
   - jekyll-archives-v2
   - jekyll-email-protect
   - jekyll-feed
+  - jekyll-toc
   - jekyll-get-json
   - jekyll-imagemagick
   - jekyll-jupyter-notebook
@@ -213,9 +214,18 @@ plugins:
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-regex-replace
-  - jekyll/scholar
+  - jekyll-scholar
   - jekyll-sitemap
   - jekyll-tabs
+  - jekyll-terser
+  - jekyll-twitter-plugin
+  - jemoji
+
+toc:
+  min_level: 1    # 1 means include h1, h2, etc.
+  max_level: 6    # 6 means include up to h6
+  ordered: false  # Use ordered list
+  no_toc_section_class: no_toc  # class for elements that should be skipped
   - jekyll-terser
   - jekyll-toc
   - jekyll-twitter-plugin
