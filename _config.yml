@@ -204,8 +204,7 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+  - jemoji
  
 # Sitemap settings
 defaults:
