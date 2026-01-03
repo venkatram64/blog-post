@@ -9,12 +9,21 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
 <div class="publications">
 
-{% bibliography %}
+## Publications
+
+This section would normally display your publications using the `jekyll-scholar` plugin. Since GitHub Pages doesn't support this plugin, you can manually add your publications in Markdown format below, or use one of these alternatives:
+
+1. **Manual Listing**: Add your publications directly in this file using Markdown
+2. **External Link**: Link to an external publications page (e.g., Google Scholar, ORCID)
+3. **PDF List**: Upload a PDF of your CV or publications list and link to it here
+
+### Example Publication
+
+**Title of your publication**  
+*Author 1*, Author 2, Author 3  
+*Journal/Conference Name*, Year  
+[DOI/PDF](#) | [BibTeX](#)
 
 </div>
