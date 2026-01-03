@@ -206,35 +206,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  # Remove unsupported plugins for GitHub Pages:
-  # - jekyll-archives-v2
-  # - jekyll-email-protect
-# Only include plugins that are supported by GitHub Pages
-  # See: https://pages.github.com/versions/
-  # The following plugins are already included in github-pages gem:
-  # - jekyll-feed
-  # - jekyll-seo-tag
-  # - jekyll-sitemap
-  # - jekyll-optional-front-matter
-  # - jekyll-titles-from-headings
-  # - jekyll-relative-links
-  # - jekyll-remote-theme
-  # - jekyll-include-cache
-  # - jekyll-redirect-from
-  # - jekyll-default-layout
-  # - jekyll-commonmark-ghpages
-  # - jekyll-commonmark
-  # - jemoji
-  # - kramdown
-  # - kramdown-parser-gfm
-  # - liquid
-  # - mercenary
-  # - minima
-  # - nokogiri
-  # - rouge
-  # - terminal-table
-  # - webrick
-
+ 
 # Sitemap settings
 defaults:
   - scope:
@@ -244,18 +216,6 @@ defaults:
 
 sass:
   style: compressed
-
-# -----------------------------------------------------------------------------
-# Jekyll Minifier
-# -----------------------------------------------------------------------------
-
-# jekyll-minifier:
-#   compress_javascript: false # set to false since we are using terser as the js minifier
-#   exclude: ["robots.txt", "assets/js/search/*.js"]
-
-# -----------------------------------------------------------------------------
-# Terser
-# -----------------------------------------------------------------------------
 
 terser:
   compress:
