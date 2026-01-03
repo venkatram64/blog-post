@@ -7,8 +7,6 @@ tags: formatting toc sidebar
 categories: sample-posts
 giscus_comments: true
 related_posts: false
-toc:
-  sidebar: left
 ---
 
 This post shows how to add a table of contents as a sidebar.
@@ -17,10 +15,6 @@ This post shows how to add a table of contents as a sidebar.
 
 To add a table of contents to a post as a sidebar, simply add
 
-```yml
-toc:
-  sidebar: left
-```
 
 to the front matter of the post. The table of contents will be automatically generated from the headings in the post. If you wish to display the sidebar to the right, simply change `left` to `right`.
 
