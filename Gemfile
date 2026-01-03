@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Use GitHub Pages
-gem 'github-pages', '~> 228', group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
 
 # Minimal set of plugins
 group :jekyll_plugins do
